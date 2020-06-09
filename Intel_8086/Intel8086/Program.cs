@@ -6,13 +6,14 @@ using System.Collections;
 namespace Intel8086
 {
     class Program
+
     {
         public static string[] registerNames = { "Ax", "Bx", "Cx", "Dx" };
-
         public static int[] registerValues = new int[4];
 
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
 
             for (int i = 0; i < 4; i++)
             {
